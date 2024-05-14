@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="WisdomEquan">
+    
+    <title>
+        
+            Hexo环境配置 |
+        
+        阳光下の少年
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"wisdomequan.github.io","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true,"layout":"left"},"style":{"primary_color":"#0066cc","logo":"https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg","favicon":"https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg","avatar":"https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg","first_screen":{"enable":true,"header_transparent":true,"background_img":"/images/bg.svg","description":"随缘应变觉无界，因果循环见自然","hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":true},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"obsidian"},"pjax":{"enable":true},"lazyload":{"enable":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"version":"3.8.2"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="WisdomEquan" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container border-box">
+
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               阳光下の少年
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                友链
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+
+                
+
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+
+        <div class="article-content-container border-box">
+
+            
+
+            <div class="article-content-bottom border-box">
+                
+                    <div class="article-title">
+                        Hexo环境配置
+                    </div>
+                
+
+                
+                    <div class="article-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="https://pic.imgdb.cn/item/652e034cc458853aef735cea.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author">
+                                <span class="name">WisdomEquan</span>
+                                
+                                    <span class="author-label">Lv2</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="article-meta-info-container border-box post">
+    <div class="article-meta-info border-box">
+        
+
+
+        
+            <span class="meta-info-item article-create-date">
+                <i class="icon fa-solid fa-calendar-check"></i>&nbsp;
+                <span class="pc">2024-02-25 03:19:21</span>
+                <span class="mobile">2024-02-25 03:19</span>
+            </span>
+
+            <span class="meta-info-item article-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="pc" data-updated="Sun Feb 25 2024 03:40:09 GMT+0800">2024-02-25 03:40:09</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item article-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="article-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="article-tag meta-info-item border-box">
+                <i class="icon fas fa-tags"></i>&nbsp;
+                <ul class="article-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/Hexo/">Hexo</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item article-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>880 字</span>
+            </span>
+        
+        
+            <span class="meta-info-item article-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>3 分钟</span>
+            </span>
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="article-content keep-markdown-body">
+                    
+
+                    <p>电脑有时会出现一些奇怪的问题要重装系统，导致很多环境要重新配置。Hexo是环境配置中最复杂的每次都要在百度查很久，为此今天重新配置环境就顺便写一篇文章来记录。</p>
+<span id="more"></span>
+
+<h2 id="0x1-暂停QSync双向同步"><a href="#0x1-暂停QSync双向同步" class="headerlink" title="0x1 暂停QSync双向同步"></a>0x1 暂停QSync双向同步</h2><p>重新初始化Hexo会覆盖整个目录，所以<strong>得先提前把博客备份出来</strong>。然后删除本地的Hexo目录里的文件夹和NAS端的，然后再打开QSync等待同步完成。</p>
+<p><strong>注意：只保留一个空的Hexo目录</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; dir Hexo</span><br><span class="line">0 个文件              0 字节</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="0x2-安装Node-js"><a href="#0x2-安装Node-js" class="headerlink" title="0x2 安装Node.js"></a>0x2 安装Node.js</h2><ol>
+<li><p>删除之前安装的Node.js安装目录，否则会安装失败</p>
+</li>
+<li><p><a class="link" target="_blank" rel="noopener" href="https://nodejs.org/en">安装推荐的LTS版本<i class="fas fa-external-link-alt"></i></a>，LTS是长期支持的稳定版本</p>
+</li>
+<li><p>检查安装是否成功，显示版本号就算没问题了</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; node -v</span><br><span class="line">v20.11.1</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h2 id="0x3-初始化blog"><a href="#0x3-初始化blog" class="headerlink" title="0x3 初始化blog"></a>0x3 初始化blog</h2><ol>
+<li><p>打开Clash的TUN模式，在打开系统{代}{理}，TUN表示{代}{理}所有应用程序。</p>
+</li>
+<li><p>在Hexo目录下打开终端，依次执行</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; npm install hexo-cli -g</span><br><span class="line">&gt; hexo init blog</span><br><span class="line">&gt; <span class="built_in">cd</span> blog</span><br><span class="line">&gt; npm install</span><br><span class="line">&gt; hexo server</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>如果一切顺利会显示一个本地服务器地址<code>http://localhost:4000/</code>，复制在浏览器里打开能够看到一个Hello World默认文章，就表示已经成功了。</p>
+</li>
+</ol>
+<h2 id="0x4-运行自己的blog"><a href="#0x4-运行自己的blog" class="headerlink" title="0x4 运行自己的blog"></a>0x4 运行自己的blog</h2><ol>
+<li>把刚才备份博客目录解压缩在Hexo目录下</li>
+<li>在自己blog目录下打开终端执行<code>hexo s</code></li>
+<li>如果能够显示<code>http://localhost:4000</code>，并且能够正常在浏览器中打开就算本地配置完成了</li>
+</ol>
+<h2 id="0x5-Gitee-SSH配置"><a href="#0x5-Gitee-SSH配置" class="headerlink" title="0x5 Gitee SSH配置"></a>0x5 Gitee SSH配置</h2><ol>
+<li><p>设置Gitee账户和用户名</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; git config --global user.email <span class="string">"you@example.com"</span></span><br><span class="line">&gt; git config --global user.name <span class="string">"Your Name"</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>生成SSH密钥</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ssh-keygen -t rsa -C <span class="string">"Your Name"</span></span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>SSH密钥保存位置使用默认路径，不使用密码。只需要连按三次回车即可</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; ssh-keygen -t rsa -C  <span class="string">"Your Name"</span></span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (C:\Users\user/.ssh/id_rsa):</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>查看密钥，密钥保存位置在上一步命令执行结果中有</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; notepad C:\Users\user/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>打开你的Gitee设置页面，在安全设置下选择SSH公钥，把刚才打开的密钥文件内容全部复制进来，然后加上标题，点击确定就完成配置了。<strong>需要删除之前的公钥，注意不是打开blog的仓库设置，是你的账户设置</strong></p>
+</li>
+<li><p>检查配置是否成功</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; ssh -T git@gitee.com</span><br><span class="line"><span class="comment"># 在"?"后面输入yes，如果配置正确会显示你的Gitee账户名称</span></span><br><span class="line">Are you sure you want to <span class="built_in">continue</span> connecting (yes/no/[fingerprint])?yes</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h2 id="0x6-发布Hexo到Gitee"><a href="#0x6-发布Hexo到Gitee" class="headerlink" title="0x6 发布Hexo到Gitee"></a>0x6 发布Hexo到Gitee</h2><ol>
+<li><p>在自己的blog目录下执行，删除之前生成的文件</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; hexo clean</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Deleted database.</span><br><span class="line">INFO  Deleted public folder.</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p> 重新生成文件</p>
+</li>
+</ol>
+   <figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; hexo g</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">...</span><br><span class="line">INFO  108 files generated <span class="keyword">in</span> 877 ms</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="3">
+<li> 运行本地服务器，检查网站没问题就按Ctrl+C停止运行本地服务器</li>
+</ol>
+   <figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; hexo s</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="4">
+<li><p>同步到Gitee仓库</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; hexo d</span><br></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h2 id="0x7-Gitee部署Hexo"><a href="#0x7-Gitee部署Hexo" class="headerlink" title="0x7 Gitee部署Hexo"></a>0x7 Gitee部署Hexo</h2><ol>
+<li>打开Gitee同步blog的仓库</li>
+<li>点击右上角的<strong>管理</strong>，确保仓库处于<strong>开源</strong>状态，然后点击保存。有时候会因为没有签协议而被改为私有</li>
+<li>返回到仓库页面，点击<strong>服务</strong>中的<strong>Gitee Pages</strong>，点击<strong>更新</strong></li>
+<li>等几分钟再查看blog</li>
+</ol>
+<p>至此，一切都已经配置完成。</p>
+
+                </div>
+
+                
+                        
+<div class="article-copyright-info-container border-box">
+    <div class="copyright-info-content border-box">
+        <div class="copyright-info-top border-box">
+            <div class="post-title border-box text-ellipsis">
+                Hexo环境配置
+            </div>
+
+            <div class="post-link border-box text-ellipsis">
+                2024/02/25/2024-02-25-hexo-huan-jing-pei-zhi/
+            </div>
+        </div>
+
+        <div class="copyright-info-bottom border-box">
+            <div class="post-author bottom-item">
+                <div class="type">
+                    作者
+                </div>
+                <div class="content">WisdomEquan</div>
+            </div>
+
+            <div class="post-time bottom-item">
+                <div class="type">
+                    发布于
+                </div>
+                <div class="content">2024-02-25 03:19</div>
+            </div>
+
+
+            <div class="post-license bottom-item">
+                <div class="type">
+                    许可
+                </div>
+                <div class="content tooltip" data-tooltip-content="CC BY-NC-SA 4.0">
+                    <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">
+                        <i class="fa-brands fa-creative-commons"></i>
+                        <i class="fa-brands fa-creative-commons-by"></i>
+                        <i class="fa-brands fa-creative-commons-nc"></i>
+                        <i class="fa-brands fa-creative-commons-sa"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <i class="copyright-bg fa-solid fa-copyright"></i>
+    </div>
+    <div class="copy-copyright-info flex-center tooltip" data-tooltip-content="复制版权信息" data-tooltip-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/Hexo/">Hexo</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="article-nav">
+                        
+                            <div class="article-prev">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/2024/05/14/2024-05-14-bei-jing-zhi-di-zi-yuan-jia-cheng-mo-zu/"
+                                   title="北境之地资源加成模组"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                      <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                            <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">北境之地资源加成模组</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="article-next">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2023/08/28/2023-08-28-node-js-kua-ping-tai-ju-yu-wang-xiao-xi-chuan-shu-yu-qnap-bu-shu-shou-ce/"
+                                   title="基于Node.js跨平台局域网消息传输与QNAP部署"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">基于Node.js跨平台局域网消息传输与QNAP部署</span>
+                                        <span class="post-nav-item">下一篇</span>
+                                    </span>
+                                            <span class="right arrow-icon flex-center">
+                                      <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc left-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0x1-%E6%9A%82%E5%81%9CQSync%E5%8F%8C%E5%90%91%E5%90%8C%E6%AD%A5"><span class="nav-text">0x1 暂停QSync双向同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x2-%E5%AE%89%E8%A3%85Node-js"><span class="nav-text">0x2 安装Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x3-%E5%88%9D%E5%A7%8B%E5%8C%96blog"><span class="nav-text">0x3 初始化blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x4-%E8%BF%90%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84blog"><span class="nav-text">0x4 运行自己的blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x5-Gitee-SSH%E9%85%8D%E7%BD%AE"><span class="nav-text">0x5 Gitee SSH配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x6-%E5%8F%91%E5%B8%83Hexo%E5%88%B0Gitee"><span class="nav-text">0x6 发布Hexo到Gitee</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x7-Gitee%E9%83%A8%E7%BD%B2Hexo"><span class="nav-text">0x7 Gitee部署Hexo</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2017</span>&nbsp;-&nbsp;2024
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">WisdomEquan</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+
+            
+                <div class="deploy-info info-item default">
+                    
+                        本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/deploy-provider/github.png"></span> 提供部署服务
+                        
+                </div>
+            
+        
+
+        <div class="count-item info-item default">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools left-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0x1-%E6%9A%82%E5%81%9CQSync%E5%8F%8C%E5%90%91%E5%90%8C%E6%AD%A5"><span class="nav-text">0x1 暂停QSync双向同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x2-%E5%AE%89%E8%A3%85Node-js"><span class="nav-text">0x2 安装Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x3-%E5%88%9D%E5%A7%8B%E5%8C%96blog"><span class="nav-text">0x3 初始化blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x4-%E8%BF%90%E8%A1%8C%E8%87%AA%E5%B7%B1%E7%9A%84blog"><span class="nav-text">0x4 运行自己的blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x5-Gitee-SSH%E9%85%8D%E7%BD%AE"><span class="nav-text">0x5 Gitee SSH配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x6-%E5%8F%91%E5%B8%83Hexo%E5%88%B0Gitee"><span class="nav-text">0x6 发布Hexo到Gitee</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0x7-Gitee%E9%83%A8%E7%BD%B2Hexo"><span class="nav-text">0x7 Gitee部署Hexo</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+<!-- common -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local-search -->
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+<!-- code-block -->
+
+    
+<script src="/js/code-block.js"></script>
+
+
+
+<!-- lazyload -->
+
+
+<div class="pjax">
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+            
+<script src="/js/post/toc.js"></script>
+
+        
+
+        <!-- copyright-info -->
+        
+            
+<script src="/js/post/copyright-info.js"></script>
+
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- category-page -->
+    
+
+    <!-- links-page -->
+    
+</div>
+
+<!-- pjax -->
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>

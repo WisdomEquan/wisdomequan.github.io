@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WisdomEquan</title>
+  
+  <subtitle>阳光下の少年</subtitle>
+  <link href="https://wisdomequan.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wisdomequan.github.io/"/>
+  <updated>2024-05-13T17:45:17.790Z</updated>
+  <id>https://wisdomequan.github.io/</id>
+  
+  <author>
+    <name>WisdomEquan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>北境之地资源加成模组</title>
+    <link href="https://wisdomequan.github.io/2024/05/14/2024-05-14-bei-jing-zhi-di-zi-yuan-jia-cheng-mo-zu/"/>
+    <id>https://wisdomequan.github.io/2024/05/14/2024-05-14-bei-jing-zhi-di-zi-yuan-jia-cheng-mo-zu/</id>
+    <published>2024-05-13T16:20:38.000Z</published>
+    <updated>2024-05-13T17:45:17.790Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录一次&lt;a class=&quot;link&quot; href=&quot;https://northgard.net/&quot;&gt;Northgard（北境之地）&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;模组编写的过程&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Mod" scheme="https://wisdomequan.github.io/categories/Mod/"/>
+    
+    
+    <category term="Northgard" scheme="https://wisdomequan.github.io/tags/Northgard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo环境配置</title>
+    <link href="https://wisdomequan.github.io/2024/02/25/2024-02-25-hexo-huan-jing-pei-zhi/"/>
+    <id>https://wisdomequan.github.io/2024/02/25/2024-02-25-hexo-huan-jing-pei-zhi/</id>
+    <published>2024-02-24T19:19:21.000Z</published>
+    <updated>2024-02-24T19:40:09.679Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;电脑有时会出现一些奇怪的问题要重装系统，导致很多环境要重新配置。Hexo是环境配置中最复杂的每次都要在百度查很久，为此今天重新配置环境就顺便写一篇文章来记录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="环境配置" scheme="https://wisdomequan.github.io/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Hexo" scheme="https://wisdomequan.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Node.js跨平台局域网消息传输与QNAP部署</title>
+    <link href="https://wisdomequan.github.io/2023/08/28/2023-08-28-node-js-kua-ping-tai-ju-yu-wang-xiao-xi-chuan-shu-yu-qnap-bu-shu-shou-ce/"/>
+    <id>https://wisdomequan.github.io/2023/08/28/2023-08-28-node-js-kua-ping-tai-ju-yu-wang-xiao-xi-chuan-shu-yu-qnap-bu-shu-shou-ce/</id>
+    <published>2023-08-27T17:29:58.000Z</published>
+    <updated>2023-10-29T08:45:03.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x1-引言&quot;&gt;&lt;a href=&quot;#0x1-引言&quot; class=&quot;headerlink&quot; title=&quot;0x1 引言&quot;&gt;&lt;/a&gt;0x1 引言&lt;/h2&gt;&lt;h3 id=&quot;0x1-1-目的与背景&quot;&gt;&lt;a href=&quot;#0x1-1-目的与背景&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Node.js" scheme="https://wisdomequan.github.io/categories/Node-js/"/>
+    
+    
+    <category term="QNAP" scheme="https://wisdomequan.github.io/tags/QNAP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于MCreator+Fabric+Forge的自定义工作台</title>
+    <link href="https://wisdomequan.github.io/2023/07/01/2023-07-01-mcreator-zhi-zuo-zi-ding-yi-gong-zuo-tai/"/>
+    <id>https://wisdomequan.github.io/2023/07/01/2023-07-01-mcreator-zhi-zuo-zi-ding-yi-gong-zuo-tai/</id>
+    <published>2023-07-01T02:39:54.000Z</published>
+    <updated>2023-10-29T08:51:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://wisdomequan.github.io/categories/Minecraft/"/>
+    
+    
+    <category term="MCreator" scheme="https://wisdomequan.github.io/tags/MCreator/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>植物大战僵尸阳光修改器</title>
+    <link href="https://wisdomequan.github.io/2023/06/24/2023-06-24-zhi-wu-da-zhan-jiang-shi-yang-guang-xiu-gai-qi/"/>
+    <id>https://wisdomequan.github.io/2023/06/24/2023-06-24-zhi-wu-da-zhan-jiang-shi-yang-guang-xiu-gai-qi/</id>
+    <published>2023-06-24T03:34:56.000Z</published>
+    <updated>2023-10-29T08:52:07.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;一直都想搞一个植物大战僵尸的修改器，想通过学习自己制作一个&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;打算使用Cheat</summary>
+        
+      
+    
+    
+    
+    <category term="易" scheme="https://wisdomequan.github.io/categories/%E6%98%93/"/>
+    
+    
+    <category term="植物大战僵尸" scheme="https://wisdomequan.github.io/tags/%E6%A4%8D%E7%89%A9%E5%A4%A7%E6%88%98%E5%83%B5%E5%B0%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft BSL 汉化包</title>
+    <link href="https://wisdomequan.github.io/2022/11/26/2022-11-26-minecraft-bsl-han-hua-bao/"/>
+    <id>https://wisdomequan.github.io/2022/11/26/2022-11-26-minecraft-bsl-han-hua-bao/</id>
+    <published>2022-11-26T04:53:53.000Z</published>
+    <updated>2024-02-24T20:48:43.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a class=&quot;link&quot; href=&quot;https://bitslablab.com/bslshaders/&quot;&gt;BSL&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt; 是 Minecraft</summary>
+        
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://wisdomequan.github.io/categories/Minecraft/"/>
+    
+    
+    <category term="汉化" scheme="https://wisdomequan.github.io/tags/%E6%B1%89%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Absolute Pace 绝对和平的生存</title>
+    <link href="https://wisdomequan.github.io/2022/10/01/2022-03-02-jue-dui-he-ping-de-sheng-cun/"/>
+    <id>https://wisdomequan.github.io/2022/10/01/2022-03-02-jue-dui-he-ping-de-sheng-cun/</id>
+    <published>2022-10-01T10:36:38.000Z</published>
+    <updated>2023-10-29T08:53:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在 Minecraft</summary>
+        
+      
+    
+    
+    
+    <category term="Mod" scheme="https://wisdomequan.github.io/categories/Mod/"/>
+    
+    
+    <category term="Minecraft" scheme="https://wisdomequan.github.io/tags/Minecraft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明六自定义领袖特色建筑</title>
+    <link href="https://wisdomequan.github.io/2021/06/01/2021-06-01-wen-ming-liu-zi-ding-yi-ling-xiu-te-se-jian-zhu/"/>
+    <id>https://wisdomequan.github.io/2021/06/01/2021-06-01-wen-ming-liu-zi-ding-yi-ling-xiu-te-se-jian-zhu/</id>
+    <published>2021-05-31T16:00:00.000Z</published>
+    <updated>2024-01-12T15:24:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;只允许主机、特定领袖、特定文明使用特定功能的模组&lt;/p&gt;
+&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Civ6" scheme="https://wisdomequan.github.io/categories/Civ6/"/>
+    
+    
+    <category term="Mod" scheme="https://wisdomequan.github.io/tags/Mod/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明六自定义市中心区域建筑模组</title>
+    <link href="https://wisdomequan.github.io/2021/02/04/2021-02-04-wen-ming-liu-zi-ding-yi-shi-zhong-xin-qu-yu-jian-zhu-mo-zu/"/>
+    <id>https://wisdomequan.github.io/2021/02/04/2021-02-04-wen-ming-liu-zi-ding-yi-shi-zhong-xin-qu-yu-jian-zhu-mo-zu/</id>
+    <published>2021-02-03T16:00:00.000Z</published>
+    <updated>2023-10-29T08:54:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在文明 6</summary>
+        
+      
+    
+    
+    
+    <category term="Civ6" scheme="https://wisdomequan.github.io/categories/Civ6/"/>
+    
+    
+    <category term="Mod" scheme="https://wisdomequan.github.io/tags/Mod/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的世界自定义配方脚本生成器</title>
+    <link href="https://wisdomequan.github.io/2020/11/26/2020-11-26-wo-de-shi-jie-zi-ding-yi-pei-fang-jiao-ben-sheng-cheng-qi/"/>
+    <id>https://wisdomequan.github.io/2020/11/26/2020-11-26-wo-de-shi-jie-zi-ding-yi-pei-fang-jiao-ben-sheng-cheng-qi/</id>
+    <published>2020-11-25T16:00:00.000Z</published>
+    <updated>2023-10-29T08:51:51.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在 Minecraft</summary>
+        
+      
+    
+    
+    
+    <category term="易" scheme="https://wisdomequan.github.io/categories/%E6%98%93/"/>
+    
+    
+    <category term="Minecraft" scheme="https://wisdomequan.github.io/tags/Minecraft/"/>
+    
+  </entry>
+  
+</feed>
