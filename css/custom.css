@@ -1,6 +1,6 @@
 /* 工具页面列表布局 */
 .page-template-container .tools-nav-box .tool-item-list {
-    /* display: table-column; */
+    display: table-column;
     grid-gap: 1.2rem;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
