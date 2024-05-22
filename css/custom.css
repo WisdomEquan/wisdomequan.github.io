@@ -1,0 +1,16 @@
+/* 工具页面列表布局 */
+.page-template-container .tools-nav-box .tool-item-list {
+    display: table-column;
+    grid-gap: 1.2rem;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+/* 深色模式 */
+.dark-mode {
+    --background-color-1: #222222;
+    --background-color-2: #222222;
+    --background-color-3: #222222;
+    --content-background-color: #222222;
+    --scrollbar-color: #badc58;
+    --scrollbar-background-color: #222222;
+}
