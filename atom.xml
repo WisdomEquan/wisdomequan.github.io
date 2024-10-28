@@ -6,7 +6,7 @@
   <link href="https://wisdomequan.github.io/atom.xml" rel="self"/>
   
   <link href="https://wisdomequan.github.io/"/>
-  <updated>2024-05-13T17:45:17.790Z</updated>
+  <updated>2024-10-28T05:01:33.919Z</updated>
   <id>https://wisdomequan.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Keep主题页面定制记录</title>
+    <link href="https://wisdomequan.github.io/2024/10/28/2024-10-28-keep-zhu-ti-ye-mian-ding-zhi-ji-lu/"/>
+    <id>https://wisdomequan.github.io/2024/10/28/2024-10-28-keep-zhu-ti-ye-mian-ding-zhi-ji-lu/</id>
+    <published>2024-10-28T03:44:59.000Z</published>
+    <updated>2024-10-28T05:01:33.919Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;几个月前改配置没记录，现在忘了只好研究补记。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://wisdomequan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="theme" scheme="https://wisdomequan.github.io/tags/theme/"/>
+    
+  </entry>
   
   <entry>
     <title>北境之地资源加成模组</title>

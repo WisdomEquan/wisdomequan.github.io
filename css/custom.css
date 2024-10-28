@@ -1,4 +1,4 @@
-/* 工具页面列表布局 */
+/* 工具页面将布局从表格修改为列表，以至于能够展示足够长的描述。 */
 .page-template-container .tools-nav-box .tool-item-list {
     display: table-column;
     grid-gap: 1.2rem;
@@ -13,4 +13,13 @@
     --content-background-color: #222222;
     --scrollbar-color: #badc58;
     --scrollbar-background-color: #222222;
+}
+/* 工具页面左侧标题列表拥有更长的显示宽度 */
+.page-template-container .tools-nav-box .tools-nav-list {
+    width: 20rem;
+    margin-right: 0.5rem;
+}
+/* _posts左侧标题列表拥有更长的显示宽度 */
+.post-toc-wrap {
+    width: 20rem;
 }

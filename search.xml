@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Keep主题页面定制记录</title>
+      <link href="/2024/10/28/2024-10-28-keep-zhu-ti-ye-mian-ding-zhi-ji-lu/"/>
+      <url>/2024/10/28/2024-10-28-keep-zhu-ti-ye-mian-ding-zhi-ji-lu/</url>
+      
+        <content type="html"><![CDATA[<p>几个月前改配置没记录，现在忘了只好研究补记。</p><span id="more"></span><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a class="link" href="https://keep-docs.xpoet.cn/advanced/custom-style.html#%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B">Hexo定制样式使用流程<i class="fas fa-external-link-alt"></i></a></li></ul><h2 id="主题颜色"><a href="#主题颜色" class="headerlink" title="主题颜色"></a>主题颜色</h2><ul><li>更好的深色</li></ul><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.dark-mode</span> {</span><br><span class="line">    --<span class="attribute">background-color</span>-<span class="number">1</span>: <span class="number">#222222</span>;</span><br><span class="line">    --<span class="attribute">background-color</span>-<span class="number">2</span>: <span class="number">#222222</span>;</span><br><span class="line">    --<span class="attribute">background-color</span>-<span class="number">3</span>: <span class="number">#222222</span>;</span><br><span class="line">    --<span class="attribute">content</span>-<span class="attribute">background-color</span>: <span class="number">#222222</span>;</span><br><span class="line">    --scrollbar-<span class="attribute">color</span>: <span class="number">#badc58</span>;</span><br><span class="line">    --scrollbar-<span class="attribute">background-color</span>: <span class="number">#222222</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><h2 id="工具页面"><a href="#工具页面" class="headerlink" title="工具页面"></a>工具页面</h2><ul><li>工具页面将布局从表格修改为列表，以至于能够展示足够长的描述。</li></ul><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.page-template-container</span> <span class="selector-class">.tools-nav-box</span> <span class="selector-class">.tool-item-list</span> {</span><br><span class="line">    <span class="attribute">display</span>: table-column;</span><br><span class="line">    grid-gap: <span class="number">1.2rem</span>;</span><br><span class="line">    grid-template-<span class="attribute">columns</span>: <span class="built_in">repeat</span>(<span class="number">4</span>, <span class="number">1</span>fr);</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><ul><li>工具页面左侧标题列表拥有更长的显示宽度</li></ul><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.page-template-container</span> <span class="selector-class">.tools-nav-box</span> <span class="selector-class">.tools-nav-list</span> {</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">20rem</span>;</span><br><span class="line">    <span class="attribute">margin-right</span>: <span class="number">0.5rem</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><h2 id="文章页面"><a href="#文章页面" class="headerlink" title="文章页面"></a>文章页面</h2><ul><li>左侧标题列表拥有更长的显示宽度</li></ul><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.post-toc-wrap</span> {</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">20rem</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> theme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>北境之地资源加成模组</title>
       <link href="/2024/05/14/2024-05-14-bei-jing-zhi-di-zi-yuan-jia-cheng-mo-zu/"/>
       <url>/2024/05/14/2024-05-14-bei-jing-zhi-di-zi-yuan-jia-cheng-mo-zu/</url>
