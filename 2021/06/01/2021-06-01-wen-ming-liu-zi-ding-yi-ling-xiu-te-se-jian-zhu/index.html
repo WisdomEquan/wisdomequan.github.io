@@ -48,9 +48,9 @@
     KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
     KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
   </script>
-<meta name="generator" content="Hexo 5.4.0">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="WisdomEquan" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="WisdomEquan" type="application/atom+xml">
 </head>
 
 
@@ -323,7 +323,7 @@
 
             <span class="meta-info-item post-update-date">
                 <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Fri Jan 12 2024 23:24:36 GMT+0800">2024-01-12 23:24:36</span>
+                <span class="datetime" data-updated="Tue Feb 11 2025 13:16:43 GMT+0800">2025-02-11 13:16:43</span>
             </span>
         
 
@@ -352,7 +352,7 @@
         
         
             <span class="meta-info-item post-wordcount">
-                <i class="icon fas fa-file-word"></i>&nbsp;<span>1.2k 字</span>
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>1.1k 字</span>
             </span>
         
         
@@ -394,7 +394,6 @@
 <blockquote>
 <p>墨影斋主人：在你的建筑下添加一个修改器，判定建造条件是 “玩家”，如果是绑定领袖或者文明，就直接用 TraitType</p>
 </blockquote>
-<p>我迫不及待想要去尝试下</p>
 <p>打开 HBX(HBuilderX) 检索一下 <code>TraitType</code> 看下这玩意怎么写的．</p>
 <p>我在 <code>Civilizations.xml</code> 文件中的 <strong>第 200 行</strong> 找到了一条相关有可能的但与玉皇大帝作者说的完全不同的代码</p>
 <figure class="highlight xml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Row</span> <span class="attr">CivilizationType</span>=<span class="string">"CIVILIZATION_GERMANY"</span> <span class="attr">LeaderType</span>=<span class="string">"LEADER_BARBAROSSA"</span></span></span><br></pre></td></tr></tbody></table></figure>
@@ -430,10 +429,7 @@
 <p>我直接追加到了建筑名称的后面，当我使用其它领袖的时候，他成功的没有显示出来．当然不排除是我写错了，在没有写正确的情况下是不会显示的．</p>
 <p>我再试试德国，万一我写对了呢．对吧！</p>
 <p><img src="https://pic.imgdb.cn/item/60b6179539f6859bc2dea553.png" alt="这下才是真正成功了"></p>
-<p>竟然真成功了，再试试一下热座模式，因为仅允许玩家使用和德国使用，看看这两个条件冲突不</p>
-<p>还真能用，没有任何冲突，终于完成了</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>即时在不依靠国内的各种文档，视频教程，依然可以依靠阅读英文文档和官网的帮助以及自己的猜测和摸索一样能达成目标．</p>
-<p>虽然我最后实现功能的方式和玉皇大帝模组开发者说的答案有点出入，但还是他提醒了我，我愣是依靠一条信息找到了答案＂领袖，文明，特征<code>TraitType</code>＂才完成了我一直以来的目标．</p>
+<p>竟然真成功了，再试试一下热座模式，因为仅允许玩家使用和德国使用，看看这两个条件冲突不，还真能用没有任何冲突，终于完成了</p>
 
                     
                 </div>
@@ -568,7 +564,7 @@
             <div class="pc-post-toc right-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E7%BB%84%E4%BB%8B%E7%BB%8D"><span class="nav-text">模组介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80"><span class="nav-text">订阅地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF%E8%AE%B0%E5%BD%95"><span class="nav-text">思路记录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%99%A8%E6%96%87%E4%BB%B6%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99"><span class="nav-text">修改器文件如何编写</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第一种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第二种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第三种可能性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-text">总结</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E7%BB%84%E4%BB%8B%E7%BB%8D"><span class="nav-text">模组介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80"><span class="nav-text">订阅地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF%E8%AE%B0%E5%BD%95"><span class="nav-text">思路记录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%99%A8%E6%96%87%E4%BB%B6%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99"><span class="nav-text">修改器文件如何编写</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第一种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第二种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第三种可能性</span></a></li></ol></li></ol></li></ol>
     </div>
 </div>
 
@@ -586,7 +582,7 @@
             
 <footer class="footer border-box">
     <div class="copyright-info info-item">
-        &copy;&nbsp;<span>2017</span>&nbsp;-&nbsp;2024
+        &copy;&nbsp;<span>2017</span>&nbsp;-&nbsp;2025
         
             &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">WisdomEquan</a>
         
@@ -728,7 +724,7 @@
             <div class="tablet-post-toc">
                 <div class="post-toc-wrap border-box">
     <div class="post-toc border-box">
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E7%BB%84%E4%BB%8B%E7%BB%8D"><span class="nav-text">模组介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80"><span class="nav-text">订阅地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF%E8%AE%B0%E5%BD%95"><span class="nav-text">思路记录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%99%A8%E6%96%87%E4%BB%B6%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99"><span class="nav-text">修改器文件如何编写</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第一种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第二种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第三种可能性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-text">总结</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF"><span class="nav-text">背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E7%BB%84%E4%BB%8B%E7%BB%8D"><span class="nav-text">模组介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80"><span class="nav-text">订阅地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5"><span class="nav-text">参考链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%9D%E8%B7%AF%E8%AE%B0%E5%BD%95"><span class="nav-text">思路记录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%99%A8%E6%96%87%E4%BB%B6%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99"><span class="nav-text">修改器文件如何编写</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第一种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第二种可能性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">第三种可能性</span></a></li></ol></li></ol></li></ol>
     </div>
 </div>
 
