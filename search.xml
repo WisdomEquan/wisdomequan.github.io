@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>模组管理器</title>
-      <link href="/2025/03/13/2025-03-13-mo-zu-guan-li-qi/"/>
-      <url>/2025/03/13/2025-03-13-mo-zu-guan-li-qi/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个基于Express+Bootstrap+Javascript+HTML来创建一个类似Modrnith的mod管理平台</p><span id="more"></span><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>  不用Modrnith和Forge是因为三方管理平台上传需要审核、填写各种繁琐表单，也不容易通过</li><li>  目的只是用来存放、管理本地的mod，并希望能够简单、直观的访问mod</li></ul><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>这是一个轻量级的游戏模组管理平台，支持多个游戏的模组分类管理，用户可以通过直观的界面上传、下载模组，支持按加载器类型（如Forge、Fabric）和游戏版本进行筛选，并提供模组搜索功能，界面采用响应式设计并支持深色/浅色主题切换，让用户可以方便地管理和使用各种游戏模组，也可以使用Docker容器化部署内网。</p><h2 id="关键词解释"><a href="#关键词解释" class="headerlink" title="关键词解释"></a>关键词解释</h2><ol><li><p><strong>Express</strong>：Node.js的Web应用框架，用于构建服务器端应用程序，简化了路由处理和中间件集成等功能。</p></li><li><p><strong>Bootstrap</strong>：由Twitter开发的前端UI框架，提供了大量预设的CSS样式和组件，可以快速构建响应式网页。</p></li><li><p><strong>JavaScript</strong>：一种运行在浏览器中的脚本语言，用于实现网页的动态交互功能。</p></li><li><p><strong>HTML</strong>：超文本标记语言，用于构建网页的基本结构和内容。</p></li><li><p><strong>Modrinth</strong>：一个开源的游戏模组分发平台，主要面向Minecraft玩家，提供模组的上传、下载和管理功能。</p></li><li><p><strong>Mod</strong>：游戏模组的简称，是对游戏进行修改或扩展的自定义内容。</p></li><li><p><strong>Forge</strong>：Minecraft最流行的模组加载器之一，提供了完整的模组开发API。</p></li><li><p><strong>Fabric</strong>：较新的Minecraft模组加载器，以轻量级和更新速度快著称。</p></li><li><p><strong>Docker</strong>：一个开源的容器化平台，可以将应用程序及其依赖打包到一个可移植的容器中，实现跨平台部署。</p></li></ol><h2 id="截图"><a href="#截图" class="headerlink" title="截图"></a>截图</h2><p><img src="https://pic1.imgdb.cn/item/67d1f62b88c538a9b5bc345f.png" alt="mod-manager"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> mod </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> manager </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>红色警戒3地图编辑器改图记录</title>
       <link href="/2025/02/11/2025-02-11-hong-se-jing-jie-3-di-tu-bian-ji-qi-gai-tu-ji-lu/"/>
       <url>/2025/02/11/2025-02-11-hong-se-jing-jie-3-di-tu-bian-ji-qi-gai-tu-ji-lu/</url>
